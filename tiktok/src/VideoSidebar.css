@@ -1,0 +1,35 @@
+.videoSidebar {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: white;
+}
+
+.videoSidebar__button {
+   padding-bottom: 20px;
+   padding-right: 20px;
+    text-align: center;
+}
+
+.videoSidebar__button p {
+    margin-top: -2px;
+}
+
+@keyframes spinTheRecord {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.videoFooterRecord {
+    animation: spinTheRecord infinite 5s linear;
+    height : 50px;
+    filter: invert(1);
+    position: absolute;
+    top: 250px;
+    right: 9px;
+
+}
